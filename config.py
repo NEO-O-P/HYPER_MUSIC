@@ -6,18 +6,18 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "6435225"))
-API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
+API_ID = int(getenv("API_ID", "25610347"))
+API_HASH = getenv("API_HASH", "c421be09ee9b9af3d13dbf9abb03483c")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "Annu_Music_Robot")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001971806089))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002512951867"))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", "8140988754"))
 
 OWNER = int(getenv("OWNER", 2105971379))
 
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SuperBanSBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ABOUT_VENOM_OP")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Scince_sangrah_official_annu_sir")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
@@ -57,9 +57,9 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "https://iili.io/FcUbOvV.md.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://iili.io/FcUDpdQ.md.jpg")
+PLAYLIST_IMG_URL = "https://iili.io/FcUmaMg.md.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://telegra.ph/file/4e68b6d15e042249fb284.png")
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
